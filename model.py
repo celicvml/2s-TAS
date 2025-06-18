@@ -10,6 +10,8 @@ import numpy as np
 import math
 
 from eval import segment_bars_with_confidence
+#2s-TAS Model adapted from ASFormer
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
