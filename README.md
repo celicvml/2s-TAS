@@ -28,7 +28,10 @@ you can retrain the model by yourself with following command.
 python main.py --action=train --dataset=50salads/gtea/breakfast --split=1/2/3/4
 python main.py --action=predict --dataset=50salads/gtea/breakfast --split=1/2/3/4
 ```
+Our model adapted form [ASFormer](https://github.com/ChinaYi/ASFormer).
+
 If you find our repo useful, please give us a star and cite:
+
 ```bash
 @inproceedings{guo_2s-TAS,  
 	author={Xuli Guo and Ce Li and Zhongbo Jiang and Fang Wan}, 
