@@ -18,8 +18,8 @@ Raw video files are needed to train our framework. Please download the datasets 
 - PyTorch == 2.0.1
 - Cuda == 11.8
   
-## Features
-Download features of 50salads, GTEA and Breakfast provided by [Br-Prompt](https://github.com/ttlmh/Bridge-Prompt) and [I3D](https://github.com/piergiaj/pytorch-i3d).
+## Extract Features
+Extract features of 50salads, GTEA and Breakfast provided by [Br-Prompt](https://github.com/ttlmh/Bridge-Prompt) and [I3D](https://github.com/piergiaj/pytorch-i3d).
 
 ## Train your own model
 you can retrain the model by yourself with following command.
