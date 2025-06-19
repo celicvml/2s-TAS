@@ -6,17 +6,16 @@
 
 This project is an open-source implementation for **Temporal Action Segmentation**, including full training code, inference scripts, and dataset. It aims to provide an efficient and reproducible research framework for temporal action segmentation.
 
-## Dataset Download
-
-The dataset is available at the links above.
-
-Raw video files are needed to train our framework. Please download the datasets with RGB videos from the official websites ([Breakfast](https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/) / [GTEA](https://cbs.ic.gatech.edu/fpv/) /[50Salads](https://cvip.computing.dundee.ac.uk/datasets/foodpreparation/50salads/)) and save them under the folder ./data/(name_dataset). 
-
-
 ## Environment Setup
 - Python == 3.9
 - PyTorch == 2.0.1
 - Cuda == 11.8
+
+## Dataset Download
+
+The dataset is available at the links above.
+
+Raw video files are needed to extract features. Please download the datasets with RGB videos from the official websites ([Breakfast](https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/) / [GTEA](https://cbs.ic.gatech.edu/fpv/) /[50Salads](https://cvip.computing.dundee.ac.uk/datasets/foodpreparation/50salads/)) and save them under the folder ./data/(name_dataset). 
   
 ## Extract Features
 Extract features of 50salads, GTEA and Breakfast provided by [Br-Prompt](https://github.com/ttlmh/Bridge-Prompt) and [I3D](https://github.com/piergiaj/pytorch-i3d).
